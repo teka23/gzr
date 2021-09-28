@@ -1,6 +1,6 @@
 # The MIT License (MIT)
 
-# Copyright (c) 2018 Mike DeAngelo Looker Data Sciences, Inc.
+# Copyright (c) 2018 Google
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy of
 # this software and associated documentation files (the "Software"), to deal in
@@ -28,13 +28,13 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
   spec.version       = Gzr::VERSION
   spec.authors       = ["Mike DeAngelo"]
-  spec.email         = ["deangelo@looker.com"]
+  spec.email         = ["drstrangelove@google.com"]
 
   spec.summary       = %q{Command line tool to manage the content of a Looker instance.}
   spec.description   = %q{Command line tool to manage the content of a Looker instance.}
   spec.homepage      = "https://github.com/looker-open-source/gzr"
 
-  spec.required_ruby_version = '>= 2.3.0'
+  spec.required_ruby_version = '>= 2.5.0'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
@@ -59,7 +59,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "thor", "~> 0.20.0"
   spec.add_dependency 'netrc', "~> 0.11.0"
   spec.add_dependency 'rubyzip', "~> 1.3.0"
-  spec.add_dependency 'looker-sdk', "~> 0.0.7"
+  spec.add_dependency 'looker-sdk', "~> 0.1.1"
 
   spec.add_development_dependency "bundler", "~> 1.17"
   spec.add_development_dependency "rake", "~> 12.3.3"
